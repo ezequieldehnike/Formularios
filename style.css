@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #009FFF;  
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+
+form{
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.3);
+    background-color: white; 
+    border-radius: 20px;
+    color: #fff;
+}
+
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    color: black;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(241 243 243);
+}
+
+input:hover {
+    background-color: rgba(246, 249, 253, 0.966);
+}
+
+::placeholder {
+    color: #d4d7db;
+    font-size: 14px;
+}
+
+button{
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height:40px ;
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover {
+    background: linear-gradient(to right,#00d2ff, #3a7bd5 );
+}
+
+.link{
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
